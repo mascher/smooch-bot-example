@@ -24,6 +24,7 @@ const script = new Script({
     start: {
         receive: (bot) => {
             return bot.say('Hi! I\'m Marco!')
+            return bot.say('I am a dog.  A cockapoo.')
                 .then(() => 'askName');
         }
     },
